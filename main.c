@@ -17,9 +17,9 @@ int main()
     scanf("%d", &n);
 
     double result = 0;
-    for (double i = 0; i <= n; i++)
+    for (int i = 0; i <= n; i++)
     {
-        result += 1 / pow(a, pow(2.0, i));
+        result += 1 / pow(a, pow(2.0, (double)i));
     }
     
     printf("Результат: %f", result);

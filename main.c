@@ -22,7 +22,7 @@ int main()
         result += 1 / pow(a, pow(2.0, (double)i));
     }
     
-    printf("Результат: %f", result);
+    printf("Результат: %f\n", result);
 
     return 0;
 }
